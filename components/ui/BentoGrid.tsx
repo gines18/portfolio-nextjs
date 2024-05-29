@@ -49,14 +49,14 @@ export const BentoGridItem = ({
         background: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6 && 'flex justify-center'} h-full`}>
-        <div className="w-full h-full relative">
+      <div className={`${id === 6 && 'flex justify-center'} `}>
+        <div className="w-full relative">
           {img && (
             <img 
               src={img}
               alt={img}
-              className={cn(imgClassName, 'w-full h-full')}
-              style={{ objectFit: 'cover' }}
+              className={cn(imgClassName, 'w-full ')}
+             
             />
           )}
         </div>
@@ -66,13 +66,13 @@ export const BentoGridItem = ({
               src={spareImg}
               alt={spareImg}
               className={cn(imgClassName, 'object-center w-full h-full')}
-              style={{ objectFit: 'cover' }}
+              
             />
           )}
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation >
-            <div className="absolute z-40 flex items-center justify-center text-white font-bold"></div>
+            <div className="absolute z-40 h-full flex items-center justify-center text-white font-bold"></div>
           </BackgroundGradientAnimation>
         )}
         <div className={cn(
