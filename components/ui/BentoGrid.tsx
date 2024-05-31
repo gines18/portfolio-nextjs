@@ -68,6 +68,7 @@ setCopied(true);
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
+    
           {img && (
             <img src={img} alt={img} className={cn(imgClassName, "w-full ")} />
           )}
