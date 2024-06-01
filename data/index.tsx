@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech enthusiast with a passion for development",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -205,16 +205,19 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      name: "git"
+      name: "github",
+      link: "https://github.com/gines18",
     },
     {
       id: 2,
       img: "/twit.svg",
-      name: "twitter"
+      name: "twitter",
+      link: "https://github.com",
     },
     {
       id: 3,
       img: "/link.svg",
-      name: "linkedin"
+      name: "linkedin",
+      link: "https://www.linkedin.com/in/mariusz-ruczkowski",
     },
   ];
