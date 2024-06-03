@@ -14,9 +14,9 @@ const Approach = () => {
       </section>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center gap-4 m-5">
         <Card
-          title="Planing & Strategy"
+          title="Discovery & Planning"
           icon={<AceternityIcon order="Phase 1"/>}
-          description="Discuss"
+          description="Understand client's needs and goals, define project scope and timeline, create wireframes and site map. "
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,9 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card 
-        title="Nisha is Munni" 
+        title="Design & Development" 
         icon={<AceternityIcon order="Phase 2"/>}
-        description="Discuss"
+        description="Design UI/UX based on client feedback, develop and code the website, implement responsive design and SEO."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,9 +41,9 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card 
-        title="Munni is Aditi" 
+        title="Testing & Launch" 
         icon={<AceternityIcon order="Phase 3"/>}
-        description="Discuss"
+        description="Conduct thorough testing (performance, functionality), client review and final adjustments, launch website and provide training."
         >
           <CanvasRevealEffect
             animationSpeed={3}
