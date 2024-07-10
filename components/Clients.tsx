@@ -1,8 +1,8 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { testimonials } from '@/data'
-import { div } from 'three/examples/jsm/nodes/Nodes.js'
 import { companies } from '@/data'
+
 const Clients = () => {
   return (
     <div className='py-20 w-[100vw]' id='testimonials'>
