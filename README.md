@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name
 
-## Getting Started
+Welcome to the repository for our Next.js website! This project utilizes Tailwind CSS for styling and TypeScript for type safety. The website consists of four main pages: Home, About, Projects, and Contact.
 
-First, run the development server:
+[Deployed link](https://portfolio-nextjs-bice-zeta.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img src="https://github.com/gines18/portfolio-nextjs/blob/main/public/portfolionextjs.png?raw=true"/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is a modern, responsive website built with Next.js. It leverages Tailwind CSS for efficient and flexible styling and TypeScript to ensure type safety and improve code quality. The website includes four primary pages: Home, About, Projects, and Contact.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+	•	Next.js: Server-side rendering and static site generation for optimal performance.
+	•	Tailwind CSS: Utility-first CSS framework for rapid UI development.
+	•	TypeScript: Strongly-typed language to enhance code quality and maintainability.
+	•	Responsive Design: Ensures compatibility across various devices and screen sizes.
+	•	Modular Architecture: Clean and organized code structure.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+	•	Next.js
+	•	Tailwind CSS
+	•	TypeScript
+ 
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome and appreciated. To contribute:
 
-## Deploy on Vercel
+	1.	Fork the project.
+	2.	Create your feature branch (git checkout -b feature/AmazingFeature).
+	3.	Commit your changes (git commit -m 'Add some AmazingFeature').
+	4.	Push to the branch (git push origin feature/AmazingFeature).
+	5.	Open a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distributed under the MIT License. See LICENSE for more information.
+
+Thank you for visiting my portfolio repository! If you have any questions or suggestions, feel free to open an issue or contact me directly. Happy coding!
