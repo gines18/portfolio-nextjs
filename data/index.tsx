@@ -100,7 +100,7 @@ export const navItems = [
       des: "Simple four page website with contact form build on top of next.js",
       img: "/portfolio.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-      link: "https://github.com/gines18/portfolio-nextjs",
+      link: "https://github.com/gines18/my-tailwind-project",
     },
   ];
   
